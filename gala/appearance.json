@@ -1,12 +1,16 @@
 {
   "schemaId": "urn:gala:schema:appearance:2.0.0",
   "schemaVersion": "2.0.0",
-  "theme": "@rathnasgala2/theme-default@^4.0.0",
+  "theme": "@rathnasgala2/theme-amaze@^4.0.0",
   "colorMode": { "allowed": ["light", "dark", "system"], "default": "system" },
   "headerComposition": "mark-and-name",
   "footerComposition": "profile",
   "typeScale": "standard",
   "fontAssetRefs": [],
-  "tokens": {},
+  "tokens": {
+    "accent": { "light": "#74202d", "dark": "#d0949b" },
+    "canvas": { "light": "#f6f2ea", "dark": "#141210" },
+    "text": { "light": "#1b1815", "dark": "#ece5d9" }
+  },
   "extensions": {}
 }
